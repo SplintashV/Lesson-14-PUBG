@@ -73,7 +73,7 @@
 
 body {
 	font-family: $font-primary;
-	color: #333;
+	color: #2E3A59;;
 	background-color: #fff;
 	overflow-x: hidden;
 	display: flex;
@@ -361,8 +361,20 @@ input:checked+label {
         text-decoration: none;
         
     }
+    span {
+        margin-left: 17px;
+    }
+    &.btn-login{
+        padding: 15px 25px;
+    }
 }
 
+input.btn.btn-primary {
+    background: url(assets/img/icon_big_right.svg) calc(100% - 34px) center no-repeat, 
+    linear-gradient(98.89deg, #FF9B05 25.06%, #FF8F3F 88.94%),
+    #FB8500;
+    padding-right: 95px;
+}
 .btn-primary {
     font-size: 16px;
     font-weight: 700;
