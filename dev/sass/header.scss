@@ -1,4 +1,6 @@
-
+.navbar{
+    padding: 33px 0;
+}
 .navbar-nav{
     max-width: 941px;
     width: 100%;
@@ -14,13 +16,14 @@
 
 
 .navbar-brand{
-    margin-right: 75px;
+    margin-right: auto;
 }
 
 .navbar-light {
     .navbar-nav {
+        margin: 0 auto 0 auto;
         .nav-link {
-            color: #000000;
+            color: #ffffff;
             font-weight: 700;
             font-size: 17px;
             line-height: 21px;
@@ -53,7 +56,8 @@
     box-shadow: 0px 4px 5px #a4a3a340;
     border-radius: 4px;
     width: 123px;
-    margin: 0 auto;
+    
+    min-height: 60px;
         img {
             width: 25px;
             height: 20px;
@@ -67,7 +71,7 @@
     line-height: 21px;
     font-weight: 700;
     font-size: 17px;
-    padding: 17.5px 40px 17.5px 12px;
+    padding: 20px 40px 19px 12px;
     cursor: pointer;
     position: relative;
     @extend .icon__select-arrow--close;
@@ -85,7 +89,8 @@
     display: none;
     position: absolute;
     top: 50px;
-    left: 0;
+    
+    right: 0;
     background: #FFFFFF;
     border-radius: 5px;
     width: 123px;

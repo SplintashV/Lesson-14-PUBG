@@ -1,4 +1,95 @@
 @media screen and (max-width: 1024px) {
+
+    .navbar {
+        padding: 15px 0;
+        &-toggler {
+            border: none;
+            order: -1;
+            z-index: 1;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+
+        &-nav{
+        
+            padding: 150px 0 24px  ;
+        }
+        &-collapse{
+            background-color: #ffff;
+            margin:-120px -12px 0;
+            padding: 0px 12px;
+        }
+        &-light{
+            .navbar-brand{
+            position: absolute;
+            left: 50%;
+            top: 11px;
+            transform: translate(-50%, 0);
+            } 
+            .navbar-nav{
+                .nav-link {
+                    color: #2E3A59;
+                    &:hover{
+                        &::before{
+                            width: 100%;
+                        }
+                    }
+
+                    &::before{
+                        top: 100%;
+                        left: 0;
+                        transform: translate(0,0);
+                    }
+                }
+                
+            }
+                
+
+        } 
+    }
+    
+
+    
+    
+
+    .btn{
+        &.btn-login{
+           
+            margin: 0 0 40px 0;
+        }
+    }
+    
+    
+    
+    
+    .language-title{
+        padding: 11px 12px 10px 12px;
+        font-size: 12px;
+        text-align: right;
+        background-image: none;
+        &.active{
+            background-image: none;
+        }
+    }
+
+    .language-bar{
+        margin-left: auto;
+        max-width:  66px;
+        min-height: 36px;
+        position: absolute;
+        right: 12px;
+        top: 15px;
+    }
+
+    .language-list{
+        top: 30px;
+        width: 88px;
+        .menu-item {
+            line-height: 35px;
+            font-size: 12px;
+        }
+    }
+
+   
 }
-
-
