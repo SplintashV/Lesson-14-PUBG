@@ -29,15 +29,16 @@
         margin-bottom: 28px;
         margin-top: -29px;
         
+        &-icon{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            background: url(assets/img/first-screen__title-icon.svg) center no-repeat;
+            margin: 0 2px -9px -2px;
+            }
     }   
 
-        &-icon{
-        width: 50px;
-        height: 50px;
-        display: inline-block;
-        background: url(assets/img/first-screen__title-icon.svg) center no-repeat;
-        margin: 0 2px -9px -2px;
-        }
+        
     
     .double-line{
         position: relative;
@@ -67,11 +68,10 @@
     &__description{
         width: 680px;
         height: 108px;
-        
         margin-bottom: 225px;
-        
-
-        p{
+    
+        p{  
+            
             font-weight: 600;
             font-size: 18px;
             line-height: 22px;

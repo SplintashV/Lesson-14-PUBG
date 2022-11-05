@@ -2,4 +2,12 @@
     .breadcrumb {
         padding: 25px 15px 15px 0;
     }
+
+    .first-screen{
+        &__description{
+            p{ 
+                max-width: 75%;
+            }
+        }
+    }
 }
