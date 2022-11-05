@@ -92,6 +92,13 @@
     }
 
     .first-screen{
+
+        &__description{
+            p{ 
+                max-width: 85%;
+            }
+        }
+
         &-img{
             display: none;
         }

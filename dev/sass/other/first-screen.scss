@@ -1,25 +1,14 @@
 .first-screen{
     margin-top: -126px;
-    padding: 240px 12px;
+    padding: 240px 12px 15px 12px;
     background: url(assets/img/first-screen.png) center/cover no-repeat;
-    position: relative;
+    //position: relative;
     
     .container{
         z-index: 1;
         position: relative;
     }
 
-    &:before{
-        content:"";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        background: url(assets/img/first-screen__frame-border.png) center bottom/100% no-repeat;
-        
-    }
-   
     &__title{
         max-width: 611px;
         font-weight: 800;
@@ -68,7 +57,7 @@
     &__description{
         width: 680px;
         height: 108px;
-        margin-bottom: 225px;
+        
     
         p{  
             
@@ -79,6 +68,8 @@
             margin-top: 27px;
             
         }
+
+        
         
         
     }
@@ -105,4 +96,22 @@
         //top: 75px;
     }
     
+    &__frame-bottom{
+        width: 2354px;
+        height: 193px;
+        top: 15px;
+        margin-left: -12px;
+        position: relative;
+
+        &::after{
+            content:"";
+            position: absolute;
+            left: 50px;
+            bottom: 35px;
+            height: 261px;
+            width: 812px;
+            background: url(assets/img/first-screen-bottom-img.png) center no-repeat;
+
+            }
+    }
 }   
