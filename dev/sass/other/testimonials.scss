@@ -1,0 +1,156 @@
+.testimonials{
+    padding: 0 0 107px;
+    height: 686px;
+    background: url(assets/img/first-screen.png) center/cover no-repeat;
+
+    .double-line{
+        &:before{
+        left: -24px;
+        top: -5px;
+        }
+    }  
+
+    &__border-top{
+        margin-bottom: 11px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .slider-testimonials{
+        max-width: 990px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 81px;
+
+        
+
+        
+
+        
+        .slick-slide{
+            text-align: center;
+            background: #FFFFFF;
+            border-radius: 5px;
+            padding: 0 112px 42px;
+            margin: 0 1px;
+            position: relative;
+            
+            &::before{
+                content:"";
+                position: absolute;
+                height: 152px;
+                width: 58px;
+                left: -6px;    
+                top: -80px;
+                background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='47' height='39' viewBox='0 0 47 39' fill='none'%3E%3Cpath d='M19.3748 0.250056L12.1248 28.0001L10.1248 18.6251C13.0414 18.6251 15.4581 19.5417 17.3748 21.3751C19.2914 23.2084 20.2498 25.6667 20.2498 28.7501C20.2498 31.8334 19.2914 34.3334 17.3748 36.2501C15.4581 38.0834 13.0831 39.0001 10.2498 39.0001C7.24976 39.0001 4.79142 38.0417 2.87476 36.1251C0.958089 34.2084 -0.000243787 31.7501 -0.000243787 28.7501C-0.000243787 27.7501 0.0414228 26.8334 0.124756 26.0001C0.291423 25.0834 0.583089 24.0001 0.999756 22.7501C1.41642 21.5001 1.99976 19.9167 2.74976 18.0001L9.37476 0.250056H19.3748ZM45.8748 0.250056L38.6248 28.0001L36.6248 18.6251C39.5414 18.6251 41.9581 19.5417 43.8748 21.3751C45.7914 23.2084 46.7498 25.6667 46.7498 28.7501C46.7498 31.8334 45.7914 34.3334 43.8748 36.2501C41.9581 38.0834 39.5831 39.0001 36.7498 39.0001C33.7498 39.0001 31.2914 38.0417 29.3748 36.1251C27.4581 34.2084 26.4998 31.7501 26.4998 28.7501C26.4998 27.7501 26.5414 26.8334 26.6248 26.0001C26.7914 25.0834 27.0831 24.0001 27.4998 22.7501C27.9164 21.5001 28.4998 19.9167 29.2498 18.0001L35.8748 0.250056H45.8748Z' fill='white'/%3E%3C/svg%3E") center no-repeat ;
+            }
+
+            &::after{
+                content:" ";
+                position: absolute;
+                height: 152px;
+                width: 58px;
+                right: -5px;    
+                bottom: -82px;
+                background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='47' height='39' viewBox='0 0 47 39' fill='none'%3E%3Cpath d='M27.6248 38.7501L34.8748 11.0001L36.8748 20.3751C33.9582 20.3751 31.5415 19.4584 29.6248 17.6251C27.7082 15.7917 26.7498 13.3334 26.7498 10.2501C26.7498 7.16673 27.7082 4.66673 29.6248 2.75006C31.5415 0.916728 33.9165 6.0855e-05 36.7498 6.11027e-05C39.7498 6.13649e-05 42.2082 0.958395 44.1248 2.87506C46.0415 4.79173 46.9998 7.25006 46.9998 10.2501C46.9998 11.2501 46.9582 12.1667 46.8748 13.0001C46.7082 13.9167 46.4165 15.0001 45.9998 16.2501C45.5832 17.5001 44.9998 19.0834 44.2498 21.0001L37.6248 38.7501L27.6248 38.7501ZM1.12482 38.7501L8.37482 11.0001L10.3748 20.3751C7.45815 20.3751 5.04148 19.4584 3.12482 17.6251C1.20815 15.7917 0.249817 13.3334 0.249818 10.2501C0.249818 7.16673 1.20815 4.66673 3.12482 2.75006C5.04149 0.916726 7.41649 5.85383e-05 10.2498 5.8786e-05C13.2498 5.90482e-05 15.7082 0.958393 17.6248 2.87506C19.5415 4.79173 20.4998 7.25006 20.4998 10.2501C20.4998 11.2501 20.4582 12.1667 20.3748 13.0001C20.2082 13.9167 19.9165 15.0001 19.4998 16.2501C19.0832 17.5001 18.4998 19.0834 17.7498 21.0001L11.1248 38.7501L1.12482 38.7501Z' fill='white'/%3E%3C/svg%3E") center no-repeat ;
+            }
+    
+            
+            
+        }
+
+        .slick-track{
+            padding: 58px 0;
+
+        }
+
+        .slick-arrow{
+            position: absolute;
+            left: 23px;
+            top: 43%;
+            transform: translateY(calc(-50% + 25px)) rotate(45deg);
+            box-shadow: 0px 4px 25px #0ba5fe7a, inset 0px 0px 25px #0032b44d;
+            border-radius: 15px;
+            border: none;
+            width: 115px;
+            height: 115px;
+            font-size: 0;
+
+            
+
+            &.slick-prev{
+                z-index: 1;
+                background: linear-gradient(103.01deg, #0AA6FE -49.1%, #05FFFF 177.15%) ;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    height: 36px;
+                    width: 20px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) rotate(-45deg);
+                    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='37' viewBox='0 0 21 37' fill='none'%3E%3Cpath d='M17.7759 0.634825L0.634523 18.6348L17.7759 36.6348L20.6345 33.6352L6.34765 18.6348L20.6345 3.63447L17.7759 0.634825Z' fill='white'/%3E%3C/svg%3E") center no-repeat ;
+
+                }
+
+                &:hover{
+                    background: $primary-gradient;
+                }
+                
+            }   
+
+            &.slick-next{
+                left: initial;
+                right: 23px ;
+                background:  linear-gradient(103.01deg, #0AA6FE -49.1%, #05FFFF 177.15%);
+                
+                &:before{
+                    content: "";
+                    position: absolute;
+                    height: 36px;
+                    width: 20px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) rotate(-45deg);
+                    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='36' viewBox='0 0 20 36' fill='none'%3E%3Cpath d='M2.8584 36.0001L19.9998 18.0001L2.8584 6.10352e-05L-0.000183105 2.99971L14.2867 18.0001L-0.000183105 33.0004L2.8584 36.0001Z' fill='white'/%3E%3C/svg%3E") center no-repeat;
+
+
+                }
+                &:hover{
+                    background-image: $primary-gradient;
+                }
+            }
+        
+
+        }
+
+    }
+        
+    &-photo{
+        width: 117px;
+        height: 117px;
+        margin: -59px auto 11px ;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        overflow: hidden ;
+
+        img{
+        width: 117px;
+        height: 117px;
+        object-fit: cover;
+        }
+    }
+
+    &-name{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color:#2E3A59;
+        margin-bottom: 20px;
+
+    }
+
+    
+}
+

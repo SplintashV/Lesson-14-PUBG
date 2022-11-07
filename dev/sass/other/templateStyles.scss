@@ -1,0 +1,30 @@
+
+
+.section-title{
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 55px;
+        color: $section-title;
+        text-transform: uppercase;
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+}
+
+.double-line{
+        position: relative;
+
+            &:before{
+            content:" ";
+            position: absolute;
+            height: 24px;
+            width: 40px ;
+            left: -22px;;
+            top: -3px;
+            transform: rotate(135deg);
+            background: transparent;
+            border-top: 8px solid $primary-color;
+            border-bottom: 8px solid $primary-color;
+            }
+}  
+
