@@ -4,7 +4,7 @@
         font-weight: 800;
         font-size: 45px;
         line-height: 55px;
-        color: $section-title;
+        color: $section-text-color;
         text-transform: uppercase;
         text-align: center;
         width: fit-content;
@@ -28,3 +28,32 @@
             }
 }  
 
+.after-before-lines{
+        position: relative;
+        
+
+        &:before{
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: -28px;
+            height: 8px;
+            width: 40px;
+            background-color: $primary-color;
+            transform: rotate(-45deg);
+            
+            
+        }
+
+        &::after{
+            content: "";
+            position: absolute;
+            height: 8px;
+            width: 40px;
+            bottom: 2px;
+            right: -28px;
+            background-color: $primary-color;
+            transform: rotate(-45deg);
+            
+        }
+}        

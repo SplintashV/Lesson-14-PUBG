@@ -1,6 +1,48 @@
 .functional{
     height: 815px;
     background-color: #F5F9FF;
-
     margin-top: 42px;
+
+    .section-title{
+        margin-bottom: 25px;
+    }
+
+    &__descriptional{
+        width: 495px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #828282;
+        margin-bottom: 60px;
+    }
+
+    &-list{
+        ul{
+            width: 535px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: $section-text-color;
+            li{
+                b{
+                    color: $section-text-color;
+                    font-weight: 700;
+                    }
+            }
+        
+        }
+        
+
+        
+    }
+
+
+    
+    
+        
+    
+
+
+
 }
