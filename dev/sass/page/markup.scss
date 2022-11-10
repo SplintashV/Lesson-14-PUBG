@@ -195,11 +195,11 @@ ul {
         &::before {
             content: "";
             background-color: $primary-color;
-            border-radius: 50%;
             width: 10px;
             min-width: 10px;
             height: 10px;
             top: 7px;
+            transform: rotate(45deg);
         }
     }
 } 
