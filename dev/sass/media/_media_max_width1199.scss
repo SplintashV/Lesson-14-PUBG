@@ -1,2 +1,24 @@
 @media screen and (max-width: 1199px) {
+    .first-screen{
+        &__frame-bottom{
+            &::after{
+                background-size: 90%;
+            }
+        }
+        
+    }
+
+    .functional{
+        &-list{
+            padding-right: 5px;
+        }
+
+        &__allert{
+            width: 450px;
+        }
+    }
+
+
+
 }
+

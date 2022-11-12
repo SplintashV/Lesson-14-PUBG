@@ -97,6 +97,8 @@
                 &:hover{
                     background: $primary-gradient;
                 }
+
+                
                 
             }   
 
@@ -149,6 +151,13 @@
         color:#2E3A59;
         margin-bottom: 20px;
 
+        .name-icon{
+            width: 29px ;
+            height: 58px;
+            display: inline-block;
+            background: url(assets/img/name-icon.png) center no-repeat;
+            margin: -41px 0px -44px 3px;
+        }
     }
 
     

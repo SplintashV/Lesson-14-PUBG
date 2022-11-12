@@ -92,6 +92,7 @@
     }
 
     .first-screen{
+        height: 1000px;
 
         &__description{
             p{ 
@@ -103,6 +104,20 @@
             display: none;
         }
 
+        &__frame-bottom{
+            top: 249px;
+            right: 67px;
+        }
+
+    }
+
+
+    .functional{
+        height: 1368px;
+
+        &__carousel{
+            padding-bottom: 80px;
+        }
     }
     
 }

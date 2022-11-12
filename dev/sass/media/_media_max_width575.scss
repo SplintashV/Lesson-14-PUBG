@@ -1,6 +1,15 @@
 @media screen and (max-width: 575px) {
+    .double-line::before{
+        height: 14px; 
+        width: 23px;
+        left: 9px;
+        top: 3px;
+        border-top: 5px solid $primary-color;
+        border-bottom: 5px solid $primary-color;
+    }
+
     .first-screen{
-        
+        height: 700px;
         &__title{
         
             font-size: 30px;
@@ -18,14 +27,7 @@
             
         }
 
-        .double-line::before{
-            height: 14px; 
-            width: 23px;
-            left: 9px;
-            top: 3px;
-            border-top: 5px solid $primary-color;
-            border-bottom: 5px solid $primary-color;
-        }
+        
 
         &__separator{
             width: 110px;
@@ -73,8 +75,23 @@
             }
 
             &-success{
-                padding: 18.4px 6px;
+                display: none;
             }
+
+            
+
+            &-mobile{
+                color: #FFFFFF;
+                background-color: transparent;
+                border: 1 px solid;
+                border-color: #a9eaff;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 16px;
+                padding: 18.4px 25px;
+            }
+
+
         }
         
 
@@ -83,10 +100,238 @@
             display: none;
         }
 
+        &__frame-bottom{
+            top: 37px;
+            right: 60px;
+            img{
+                width: 45%;
+            }
+
+            &::after{
+                width: 20%;
+            }
+        }
 
     }
 
+    .functional{
+        height: 907px;
+        &__carousel{
+            margin-top: 120px;
+            margin-left: -18px;
+            .carousel{
+                width: 212px;
 
+                &-control-prev{
+                    left: 50px;
+                    &-icon{
+                        height: 28px;
+                        width: 54px;
+                    }
+                }
+
+                &-control-next{
+                    right: 25px;
+                    &-icon{
+                        height: 28px;
+                        width: 54px;
+                    }
+                }
+            }
+
+
+        }
+
+
+        .section-title{
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 37px;
+            margin-bottom: 20px;
+            margin-top: -560px;
+        }
+
+        .after-before-lines{
+            &::before{
+                width: 23px;
+                height: 5px;
+            }
+            &::after{
+                width: 23px;
+                height: 5px;
+            }
+        }
+
+        &__descriptional{
+            width: 330px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 465px;
+        }
+
+        &-list{
+            width: 333px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 36px;
+            .mobile-title{
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 20px;
+                color: $section-text-color;
+                text-align: center;
+                padding-bottom: 31px;
+            }
+            li{
+                margin-bottom: 25px;
+            }
+        }
+
+        &__allert{
+            display: none;
+        }
+
+        &__btns{
+            margin-top: 0;
+
+            .btn-primary{
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 16px;
+                padding: 14px 16px;
+                span{
+                    img{
+                        width: 32px;
+                        height: 18px;
+                    }
+                   
+                }
+            }
+            .btn-secondary{
+                display: none;
+            }
+        }
+    }
+
+    .testimonials{
+        height: 395px;
+
+        .section-title{
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .double-line{
+            &::before{
+                left: -14px;
+                top: -4px;
+            }
+        }
+        .slider-testimonials {
+
+            .slick-slide{
+            width: 359px;
+            height: 136px;
+            padding: 0 25px;
+            &::after{
+                background-size: 60%;
+                right: -11px;
+                bottom: -78px;
+            }
+            &::before{
+                background-size: 60%;
+                left: -12px;    
+                top: -79px;
+            }
+
+        }
+            .slick-arrow{
+                width: 0;
+                height: 0;
+                top: 100%;
+                box-shadow: none;
+
+                &.slick-prev{
+                    background: transparent;
+                    &:before{
+                        background: url(assets/img/arrow-grey-right.svg) center no-repeat;
+                        background-size: 100%;
+                        width: 54px;
+                        height: 38px;
+                        transform: translate(0%, 0%) rotate(135deg);
+                        top: -160px;
+                        left: 87px;
+                        opacity: 0.5;
+                    }
+                    &:hover{
+                        background-image: none;
+                        
+                    }
+
+                    
+                }
+                &.slick-next{
+                    background: transparent;
+                    &:before{
+                        background: url(assets/img/arrow-grey-right.svg) center no-repeat;
+                        background-size: 100%;
+                        width: 54px;
+                        height: 38px;
+                        transform: translate(0%, 0%) rotate(-45deg);
+                        top: 91px;
+                        left: -165px;
+                        opacity: 0.5;
+                    }
+                    &:hover{
+                        background-image: none;
+                        opacity: 1;
+
+                        
+
+                    }
+                }
+
+                
+            }
+
+            
+        }
+        
+
+        &-photo{
+            height: 65px;
+            width: 65px;
+            margin-top: -37px;
+            img{
+                height: 100%;
+                
+            }
+        }
+
+        &-name{
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+
+            .name-icon{
+                margin: -8px -1px -37px -4px;
+                background-size: 190%;
+            }
+        }
+
+        &-text{
+            width: 321px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 13px;
+            text-align: center;
+        }
+
+        
+    }
 
 
 
