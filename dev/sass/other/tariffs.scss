@@ -77,7 +77,7 @@
                         height: 18px;
                         width: 23px;
                         background-color : transparent;
-                        background-image: url(assets/img/check-mark-icon.svg)  ;
+                        background: url(assets/img/check-mark-icon.svg)  center no-repeat;
                         transform: rotate(0deg);
                     }
 
@@ -85,7 +85,7 @@
                         &::before{
                             width: 18px;
                             height: 18px;
-                            background-image: url(assets/img/cross-icon.svg) ;
+                            background: url(assets/img/cross-icon.svg) center no-repeat;
                         }
                         
                     }
