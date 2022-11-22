@@ -1,0 +1,128 @@
+.contacts{
+    height: 870px;
+    background: url(assets/img/contact-bottom-bckg.svg) center bottom no-repeat ;
+    background-size: 100%;
+    margin-bottom: -208px;
+    .section-title{
+        margin-top: 55px;
+    }
+
+    &__img{
+        position: relative;
+        right: 163px;
+        top: 155px;
+    
+        &::before{
+            content: "";
+            position: absolute;
+            width: 425px;
+            height: 470px;
+            background: url(assets/img/contacts-image__atrr.png)  no-repeat;
+            bottom: 284px;
+            left: 309px;
+        }
+    }
+    &__feedback{
+        margin-top: 11px;
+        &-stand{
+            height: 432px;
+            width: 644px;
+            background: #FFFFFF;
+            box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.03);
+            border-radius: 5px;
+            padding: 48px 32px 33px 62px;
+            margin-left: 42px;
+            margin-top: 91px;
+
+            .btn-primary{
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                padding: 22px 46.5px;
+                display: block;
+                margin: 49px auto 0 auto;
+            }
+        }
+
+        &-form{
+
+           &__title{
+            margin-bottom: 33px;
+            color: $section-text-color;
+            
+            } 
+            .form-control{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-radius: 0px;
+                padding: 0 0 17px 0;
+            }
+            .form-name{
+                width: 264px;
+                margin-left: 13px;
+                margin-right: 22px;
+                background: url(/dev/assets/img/icon-user-contact.png) 8px 5px no-repeat;
+            }
+            
+            .form-email{
+                width: 264px;
+                background: url(/dev/assets/img/icon-mail.png) 8px 5px no-repeat;
+                
+            }
+            .form-txt{
+                width: 550px;
+                margin-top: 46px;
+                background: url(/dev/assets/img/icon-comment.png) 8px 5px no-repeat;
+            }
+        }
+        
+        .btn-social{
+            position: relative;
+            width: 115px;
+            height: 115px;
+            background: linear-gradient(103.01deg, #0AA6FE -49.1%, #05FFFF 177.15%);
+            box-shadow: 0px 4px 25px #0aa6fe7a, inset 0px 0px 25px #0032b44d;
+            border-radius: 15px;
+            transform: rotate(-45deg);
+            border: none;
+        }
+
+        .btn-discord{
+            right: 16px;
+            bottom: 57px;
+            &::before{
+                position: absolute;
+                content: "";
+                height: 54px;
+                width: 47px;
+                top: 31px;
+                right: 31px;
+                background: url(assets/img/icon-discord.svg) center no-repeat ;
+                transform: rotate(45deg);
+
+
+            }
+            
+        }
+
+        .btn-telegram{
+            bottom: 489px;
+            left: 509px;
+            &::before{
+                position: absolute;
+                content: "";
+                height: 47px;
+                width: 54px;
+                top: 31px;
+                right: 31px;
+                background: url(assets/img/icon-telegram.svg) center no-repeat;
+                transform: rotate(45deg);
+
+
+            }
+            
+        }
+        
+    }
+}

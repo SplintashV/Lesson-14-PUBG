@@ -436,7 +436,140 @@
         
     }
 
+    .faq{
+        margin-left: 37px;
+        .section-title{
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 37px;
+            margin-bottom: 50px;
+        }
 
+        .after-before-lines{
+            &::after{
+                background-color: $primary-color ;
+            }
+        }
+
+        .accordion-item{
+            width: 348px;
+
+            .accordion-button{
+                font-size: 13px;
+                line-height: 16px;
+                padding: 26px 16px 23px 27px;
+
+                &::after{
+                    width: 15px;
+                }
+            }
+            .accordion-body{
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 13px;
+                color: #727272;
+            }
+        }
+
+        .btn-modal{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px
+        }
+
+        .modal{
+            .double-line{
+                &::before{
+                    left: -15px;
+                    top: -10px;
+                }
+            }
+
+            &-content{
+                margin-top: 250px;
+            }
+            .btn{
+                padding: 8px 45px;
+            }
+        }
+        
+    }
+
+    .contacts{
+        padding-left: 37px;
+        .section-title{
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .double-line{
+            &::before{
+                left: -11px;
+                top: 1px;
+            }
+        }
+
+        .contacts__img{
+
+            &::before{
+                bottom: -734px;
+                left: -164px;
+                background-size: 75%;
+                transform: rotate(125.68deg);
+            }
+            img{
+                display: none;
+            }
+        }
+        &__feedback{
+            .btn-social{
+                width: 75px;
+                height: 75px ;
+                 
+            }
+            &-stand{
+                width: 336px;
+                margin-left: 0;
+            }
+            &-form{
+                .form-name{
+                    width: 280px;
+                    margin-left: 0;
+                }
+                .form-email{
+                    width: 280px;
+                }
+                .form-txt{
+                    width: 280px;
+                }
+            }
+            .btn-discord{
+                bottom: 498px;  
+                left: 80px;
+                &::before{
+                    background-size: 75%;
+                    top: 12px;
+                    right: 15px;
+                }
+            }
+            .btn-telegram{
+                bottom: 498px; 
+                left: 95px;
+                &::before{
+                    background-size: 75%;
+                    top: 15px;
+                    right: 15px;
+                }
+            }
+        }
+    }
+
+    footer{
+        .navbar{
+            display: none;
+        }
+    }
 
 
 

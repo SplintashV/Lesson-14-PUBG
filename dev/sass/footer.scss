@@ -1,7 +1,17 @@
 footer{
   height: 100px;
-  background: $primary-color;
+  background: none;
   margin-top: auto;
+
+  .copyright{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
 }
 
  
