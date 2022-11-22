@@ -232,7 +232,7 @@
             }
         }
         .slider-testimonials {
-
+            padding: 0;
             .slick-slide{
             width: 359px;
             height: 136px;
@@ -263,9 +263,13 @@
                         width: 54px;
                         height: 38px;
                         transform: translate(0%, 0%) rotate(135deg);
-                        top: -160px;
-                        left: 87px;
+                        top: -119px;
+                        left: 42px;
                         opacity: 0.5;
+                    }
+                    &:hover::before{
+                        opacity: 1;
+
                     }
                     
 
@@ -279,8 +283,8 @@
                         width: 54px;
                         height: 38px;
                         transform: translate(0%, 0%) rotate(-45deg);
-                        top: 91px;
-                        left: -165px;
+                        top: 49px;
+                        left: -125px;
                         opacity: 0.5;
                     }
                     &:hover::before{
@@ -437,7 +441,7 @@
     }
 
     .faq{
-        margin-left: 37px;
+        margin-left: 10px;
         .section-title{
             font-weight: 800;
             font-size: 30px;
@@ -496,7 +500,9 @@
     }
 
     .contacts{
-        padding-left: 37px;
+        padding-left: 20px;
+        background-size: auto;
+        margin-bottom: auto;
         .section-title{
             font-weight: 800;
             font-size: 30px;
@@ -513,7 +519,7 @@
         .contacts__img{
 
             &::before{
-                bottom: -734px;
+                bottom: -625px;
                 left: -164px;
                 background-size: 75%;
                 transform: rotate(125.68deg);
@@ -531,17 +537,32 @@
             &-stand{
                 width: 336px;
                 margin-left: 0;
+                padding: 48px 32px 33px 39px;
+
+                .btn-primary{ 
+                    margin-top: 31px;
+                    font-size: 13px;
+                    line-height: 16px;
+                    padding: 18px 34px;
+                }
             }
             &-form{
+
+                &__title{
+                    text-align: center;
+                }
                 .form-name{
                     width: 280px;
                     margin-left: 0;
+                    margin-bottom: 38px;
                 }
                 .form-email{
                     width: 280px;
                 }
                 .form-txt{
                     width: 280px;
+                    margin-left: -14px;
+                    margin-top: 36px;
                 }
             }
             .btn-discord{
@@ -566,6 +587,7 @@
     }
 
     footer{
+        margin-top: -273px;
         .navbar{
             display: none;
         }
