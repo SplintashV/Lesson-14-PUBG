@@ -3,10 +3,12 @@
         &::before{
             width: 23px;
             height: 5px;
+            left: -14px;
         }
         &::after{
             width: 23px;
             height: 5px;
+            right: -16px;
         }
     }
     .double-line::before{
@@ -263,8 +265,8 @@
                         width: 54px;
                         height: 38px;
                         transform: translate(0%, 0%) rotate(135deg);
-                        top: -119px;
-                        left: 42px;
+                        top: -111px;
+                        left: 34px;
                         opacity: 0.5;
                     }
                     &:hover::before{
@@ -283,8 +285,8 @@
                         width: 54px;
                         height: 38px;
                         transform: translate(0%, 0%) rotate(-45deg);
-                        top: 49px;
-                        left: -125px;
+                        top: 30px;
+                        left: -107px;
                         opacity: 0.5;
                     }
                     &:hover::before{
@@ -441,7 +443,7 @@
     }
 
     .faq{
-        margin-left: 10px;
+        
         .section-title{
             font-weight: 800;
             font-size: 30px;
@@ -500,9 +502,10 @@
     }
 
     .contacts{
-        padding-left: 20px;
-        background-size: auto;
-        margin-bottom: auto;
+        height: 701px;
+        background: url(assets/img/Bck-contacts-media_max375.png) center;
+        background-size: 114%;
+        margin-bottom: 0;
         .section-title{
             font-weight: 800;
             font-size: 30px;
@@ -586,12 +589,13 @@
         }
     }
 
-    footer{
-        margin-top: -273px;
+    footer {
+        background-color: #FF4900;
         .navbar{
             display: none;
         }
     }
+
 
 
 
