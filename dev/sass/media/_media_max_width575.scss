@@ -115,13 +115,14 @@
 
         &__frame-bottom{
             top: 37px;
-            right: 60px;
+            right: 127px;
             img{
                 width: 45%;
             }
 
             &::after{
                 width: 20%;
+                left: 130px;
             }
         }
 
@@ -220,12 +221,14 @@
     }
 
     .testimonials{
-        height: 455px;
+        height: 414px;
 
         .section-title{
             font-weight: 800;
             font-size: 25px;
             line-height: 30px;
+            margin-bottom: 6px;
+            margin-top: 36px;
         }
 
         .double-line{
@@ -503,10 +506,12 @@
     }
 
     .contacts{
-        height: 701px;
+        height: 757px;
         background: url(assets/img/Bck-contacts-media_max375.png) bottom no-repeat;
         background-size: 100%;
         margin-bottom: 0;
+        overflow: hidden;
+        
         .section-title{
             font-weight: 800;
             font-size: 30px;
